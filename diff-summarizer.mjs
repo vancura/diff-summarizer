@@ -45,7 +45,7 @@ async function generateCommitMessage() {
 
     try {
         const response = await openai.chat.completions.create({
-            model: "gpt-4",
+            model: "gpt-4o",
             messages: promptMessages,
             temperature: 0.5,
             max_tokens: 256,
