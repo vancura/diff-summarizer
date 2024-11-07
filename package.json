@@ -1,5 +1,6 @@
 {
     "dependencies": {
+        "@anthropic-ai/sdk": "^0.32.1",
         "child_process": "^1.0.2",
         "clipboardy": "^4.0.0",
         "openai": "^4.47.2"
