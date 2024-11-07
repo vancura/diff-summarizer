@@ -5,7 +5,7 @@ import OpenAI from "openai";
 async function generateCommitMessage() {
     // Initialize OpenAI client
     const openai = new OpenAI({
-        apiKey: process.env.OPENAI_API_KEY_DIFF_SUMMARIZER,
+        apiKey: process.env.CLAUDE_API_KEY_DIFF_SUMMARIZER,
     });
 
     // Get the staged changes as a patch
