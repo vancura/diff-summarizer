@@ -1,13 +1,13 @@
 # diff-summarizer
 
-`diff-summarizer` is a command-line tool that leverages advanced AI models like OpenAI's GPT-4 and Anthropic's Claude to automatically generate clear and concise Git commit messages based on your staged changes. By analyzing the differences in your code, it creates commit messages that adhere to best practices and formatting guidelines, saving you time and ensuring consistency across your project's commit history.
+`diff-summarizer` is a command-line tool that leverages advanced AI models like OpenAI's GPT-4, Anthropic's Claude and local DeepSeek to automatically generate clear and concise Git commit messages based on your staged changes. By analyzing the differences in your code, it creates commit messages that adhere to best practices and formatting guidelines, saving you time and ensuring consistency across your project's commit history.
 
 ## Key Benefits
 
 -   **Time-Saving:** Automates the tedious task of writing commit messages, allowing you to focus on coding.
 -   **Consistency:** Generates commit messages that follow established conventions and best practices.
 -   **Clarity:** Produces descriptive messages that make it easier for team members and future maintainers to understand the changes.
--   **Customization:** Supports both GPT-4 and Claude models, giving you flexibility in choosing the AI engine.
+-   **Customization:** Supports both GPT-4, Claude and local DeepSeek models, giving you flexibility in choosing the AI engine.
 -   **Integration:** Easily integrates into your existing workflow without the need for significant adjustments.
 -   **Ignore Irrelevant Files:** Automatically excludes Unity .meta files and other non-essential changes from the commit message.
 
@@ -18,7 +18,7 @@
 ## Features
 
 -   Generates commit messages from staged changes using AI
--   Supports both Claude 3.5 and GPT-4o
+-   Supports Claude 3.5, GPT-4o and local DeepSeek
 -   Automatically copies the result to clipboard
 -   Follows Git commit message best practices
 -   Supports Markdown formatting in commit messages
